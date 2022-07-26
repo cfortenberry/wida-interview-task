@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidaUserDirectory", "WidaUserDirectory.csproj", "{5EE78BBE-AB66-438C-BCA9-017A2BF4006B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EE78BBE-AB66-438C-BCA9-017A2BF4006B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE78BBE-AB66-438C-BCA9-017A2BF4006B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE78BBE-AB66-438C-BCA9-017A2BF4006B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE78BBE-AB66-438C-BCA9-017A2BF4006B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {811E9830-A9EA-4627-A541-610D5587797A}
+	EndGlobalSection
+EndGlobal
