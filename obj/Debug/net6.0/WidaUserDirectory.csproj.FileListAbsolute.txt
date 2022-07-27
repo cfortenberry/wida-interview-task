@@ -24,3 +24,8 @@ C:\Users\craz-\source\repos\WidaUserDirectory\obj\Debug\net6.0\refint\WidaUserDi
 C:\Users\craz-\source\repos\WidaUserDirectory\obj\Debug\net6.0\WidaUserDirectory.pdb
 C:\Users\craz-\source\repos\WidaUserDirectory\obj\Debug\net6.0\WidaUserDirectory.genruntimeconfig.cache
 C:\Users\craz-\source\repos\WidaUserDirectory\obj\Debug\net6.0\ref\WidaUserDirectory.dll
+C:\Users\craz-\source\repos\WidaUserDirectory\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\craz-\source\repos\WidaUserDirectory\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\craz-\source\repos\WidaUserDirectory\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\craz-\source\repos\WidaUserDirectory\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\craz-\source\repos\WidaUserDirectory\obj\Debug\net6.0\WidaUserDirectory.csproj.CopyComplete
