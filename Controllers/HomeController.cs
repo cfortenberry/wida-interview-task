@@ -106,14 +106,14 @@ namespace WidaUserDirectory.Controllers
         }
 
         [HttpPost]
-        public ActionResult UserDetail(int id, UserDetailModel userDetail)
+        public ActionResult UserDetail(UserDetailModel userDetail)
         {
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com/");
 
                 //HTTP POST
-                var putTask = client.PutAsJsonAsync<UserModel>("users/" + id.ToString(), userDetail.User);
+                var putTask = client.PutAsJsonAsync<UserModel>("users/" + userDetail.User.Id, userDetail.User);
                 putTask.Wait();
 
                 var result = putTask.Result;
