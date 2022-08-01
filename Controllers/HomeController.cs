@@ -106,24 +106,23 @@ namespace WidaUserDirectory.Controllers
         }
 
         [HttpPost]
-        public ActionResult userDetail(UserModel user)
+        public ActionResult UserDetail(int id, UserDetailModel userDetail)
         {
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com/");
 
                 //HTTP POST
-                var putTask = client.PutAsJsonAsync<UserModel>("user", user);
+                var putTask = client.PutAsJsonAsync<UserModel>("users/" + id.ToString(), userDetail.User);
                 putTask.Wait();
 
                 var result = putTask.Result;
-                //if (result.IsSuccessStatusCode)
-                //{
-
+                if (result.IsSuccessStatusCode)
+                {
                     return RedirectToAction("Index");
-                //}
+                }
             }
-            return View(user);
+            return View(userDetail);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
